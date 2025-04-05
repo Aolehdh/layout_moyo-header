@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
 
 :root {
   --ch-color: #00acdc;
 }
-
 
 ul {
   list-style: none;
@@ -52,11 +51,11 @@ a {
 }
 
 .navigation__link:hover {
-  color:  var(--ch-color);
+  color: var(--ch-color);
 }
 
 .navigation__link:active {
-  color: var(--ch-color)c;
+  color: var(--ch-color) c;
   box-shadow: 0 4px 0 #00acdc;
 }
 
