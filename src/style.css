@@ -3,6 +3,11 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+:root {
+  --ch-color: #00acdc;
+}
+
+
 ul {
   list-style: none;
   padding: 0;
@@ -47,17 +52,17 @@ a {
 }
 
 .navigation__link:hover {
-  color: #00acdc;
+  color:  var(--ch-color);
 }
 
 .navigation__link:active {
-  color: #00acdc;
+  color: var(--ch-color)c;
   box-shadow: 0 4px 0 #00acdc;
 }
 
 .is-active {
   position: relative;
-  color: #00acdc;
+  color: var(--ch-color);
 }
 
 .is-active::after {
@@ -67,6 +72,6 @@ a {
   left: 0;
   height: 4px;
   width: 100%;
-  background-color: #00acdc;
+  background-color: var(--ch-color);
   border-radius: 8px;
 }
